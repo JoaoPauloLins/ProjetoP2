@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Partida {
+	
+	public static void main(String[] args){
+		Scanner ler = new Scanner(System.in);
+		int n;
+		
+	     System.out.println("Começa a partida!");
+	     System.out.printf("Informe um número para a tabuada: ");
+	     n = ler.nextInt();
+	     System.out.println(n);
+	}
+
+}

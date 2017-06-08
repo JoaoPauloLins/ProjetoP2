@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Partida {
+	public static void main(String[] args) {
+	    @SuppressWarnings("resource")
+		Scanner ler = new Scanner(System.in);
+
+	    Jogador goleiro = new Jogador("Magrão", 1);
+	    Jogador zagueiroD = new Jogador("Ronaldo Alves", 2);
+	    Jogador zagueiroE = new Jogador("Durval", 4);
+	    Jogador lateralD = new Jogador("Samuel Xavier", 3);
+	    Jogador lateralE = new Jogador("Mena", 6);
+	  }
+}
